@@ -577,3 +577,260 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+
+/* ================================
+   WEDDING INVITATION TYPOGRAPHY
+   ================================ */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #564861;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Main names */
+.title h1 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 72px;
+	margin: 24px 0;
+	color: #674ea7;
+	line-height: 1.1;
+}
+
+/* Ampersand */
+.title h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 500;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #e25c67;
+	line-height: 1;
+}
+
+/* Main headings */
+.title h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 18px;
+	color: #674ea7;
+	margin-top: 12px;
+	margin-bottom: 18px;
+}
+
+/* All paragraphs */
+.title p {
+	font-family: 'Cormorant Garamond', serif;
+	color: #564861;
+	margin: 24px 0 18px;
+	text-transform: none;
+	letter-spacing: 1px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* Opening quote */
+.opening-quote {
+	font-family: 'Cormorant Garamond', serif !important;
+	font-size: 23px !important;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 1.5px !important;
+	line-height: 1.35 !important;
+	margin: 35px 0 28px !important;
+	text-transform: none !important;
+	color: #564861 !important;
+}
+
+/* Wedding Reception */
+.title h2:nth-of-type(2) {
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: #e25c67;
+	margin: 8px 0 20px;
+}
+
+/* Date section */
+.event-date {
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2px !important;
+	font-size: 15px !important;
+	line-height: 1.7 !important;
+	margin: 18px 0 25px !important;
+}
+
+.event-date strong {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: 4px;
+}
+
+.event-date .date {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #674ea7;
+}
+
+.event-date .time {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #564861;
+}
+
+/* Countdown heading */
+.countdown-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 4px;
+	color: #674ea7;
+	margin: 25px 0 12px;
+}
+
+/* Countdown box */
+#time {
+	width: auto;
+	height: auto;
+	padding: 15px;
+	background-color: #f5f1f7;
+	border-radius: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+/* Countdown numbers */
+.block {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Venue section */
+.venue-section h3,
+.family-section h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-top: 35px;
+}
+
+.venue-section p,
+.family-section p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 21px;
+	letter-spacing: 0.5px;
+	line-height: 1.4;
+}
+
+/* Buttons */
+.venue {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background-color: #674ea7;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 18px;
+	margin: 10px auto;
+	display: inline-block;
+}
+
+/* Calendar */
+.calendar-section {
+	margin-top: 25px;
+}
+
+/* Wedding ceremony note */
+.reception-note {
+	font-family: 'Cormorant Garamond', serif !important;
+	font-size: 19px !important;
+	font-style: italic;
+	letter-spacing: 0.8px !important;
+	line-height: 1.5 !important;
+	margin: 35px 0 20px !important;
+	color: #564861 !important;
+}
+
+/* Closing quote */
+.closing-quote {
+	font-family: 'Cormorant Garamond', serif !important;
+	font-size: 25px !important;
+	font-style: italic;
+	font-weight: 500;
+	letter-spacing: 1px !important;
+	text-transform: none !important;
+	margin: 30px 0 15px !important;
+	color: #674ea7 !important;
+}
+
+/* With love */
+.happiness {
+	font-family: 'Cormorant Garamond', serif !important;
+	color: #874562;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+.happiness strong {
+	font-family: 'Great Vibes', cursive;
+	font-size: 34px;
+	font-weight: 400;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+
+	.title h1 {
+		font-size: 58px;
+		margin: 18px 0;
+	}
+
+	.title h3 {
+		font-size: 14px;
+		letter-spacing: 3px;
+	}
+
+	.opening-quote {
+		font-size: 20px !important;
+	}
+
+	.title h2:nth-of-type(2) {
+		font-size: 34px;
+	}
+
+	.event-date .date {
+		font-size: 22px;
+	}
+
+	.container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.block {
+		width: 130px;
+		height: 120px;
+		font-size: 13px;
+	}
+}
